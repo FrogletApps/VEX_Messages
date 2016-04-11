@@ -18,47 +18,32 @@ void stillalive(){
     //line 1
   //bar 1
   playNote(g5,q);
-  delay(qb);          //delay must be as long as the previous note and then the delay you want
   playNote(fs5,q);
-  delay(qb);
   playNote(e5,q);
-  delay(qb);
   playNote(e5,q);
-  delay(qb);
   
   //bar 2
   playNote(fs5,c);
-  delay(cb);
   
   delay(c*3);      //three crotchet rest
   
   //bar 3
   delay(q*3);
   playNote(a4,q);
-  delay(qb);
   playNote(g5,q);
-  delay(qb);
   playNote(fs5,q);
-  delay(qb);
   playNote(e5,q);
-  delay(qb);
   playNote(e5,q);
-  delay(qb);
   
   //bar 4
   playNote(fs5,c+q);
-  delay(c+q+notebreak);
   playNote(d5,c);
-  delay(cb);
   playNote(e5,q);
-  delay(qb);
   
   //line 2
   //bar 1
   playNote(a4,q*8);
-  delay(q*8+notebreak);
   playNote(a4,q);
-  delay(qb);
   
   //bar2
   
