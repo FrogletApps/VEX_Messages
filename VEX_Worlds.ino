@@ -3,7 +3,7 @@
 
 LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
-int programNumber = 3;       //choose which program to run - change this when debugging
+int programNumber = 0;       //choose which program to run - change this when debugging
 
 int remember = 0;            //check to see if the button has changed
 int messageNumber = 0;       //set to start on startup message
@@ -25,12 +25,13 @@ const int b4 = 493.88;
 const int cs5 = 570;
 //cs5 is very slightly out of tune, but actual note does not work correctly with buzzer
 const int d5 = 587.33;
-const int e5 = 659.25;
+const int e5 = 659.25;s
 const int fs5 = 740;
 const int g5 = 784;
 const int gs5 = 830.61;
-const int a5 = 880;
-const int as5 = 932.33;
+//a5 and as5 are out of tune, actual note does not work correctly with buzzer
+const int a5 = 885;
+const int as5 = 920;
 const int b5 = 987.77;
 const int c6 = 1046.5;
 const int cs6 = 1107.73;
@@ -49,6 +50,7 @@ void playNote(int note, int time){
 
 void setup()
 {
+  randomSeed(analogRead(0));
   pinMode(ledPin,OUTPUT);          //initialize the ledPin as an output
   pinMode(tiltSwitch,INPUT);       //initialize the tiltSwitch as an input
   digitalWrite(tiltSwitch, HIGH);  //set initial value of the tilt switch

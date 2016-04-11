@@ -3,8 +3,8 @@
 
 void wantyougone(){
   //note lengths
-  const int q = 250;  //quaver - have to change these values in chorus too
-  const int c = 500;  //crotchet
+  const int q = 225;  //quaver - have to change these values in chorus too
+  const int c = 450;  //crotchet
   const int qb = q+notebreak; //quaver break
   const int cb = c+notebreak; //crotchet break
 
@@ -471,8 +471,8 @@ void wantyougone(){
 }
 
 void chorus(){
-  const int q = 200;  //quaver
-  const int c = 400;  //crotchet
+  const int q = 225;  //quaver
+  const int c = 450;  //crotchet
   
   lcd.clear();
   lcd.print("now I only want");
