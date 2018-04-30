@@ -11,3 +11,7 @@ Tilt Switch
 16x2 LCD screen
 
 If you fancy making your own version, attach these and you can change the pin numbers at the top of the VEX Worlds file to change it.
+
+[Random Messages Demo](https://www.youtube.com/watch?v=dH2LjDjBFD0)
+[Song:  Portal 2 - Want You Gone](https://www.youtube.com/watch?v=VnVuRkVTRmQ)
+[Song:  God Save the Queen](https://www.youtube.com/watch?v=BicbzdBrpiw)
