@@ -1,4 +1,4 @@
-# VEX_Messages
+# VEX Messages
 
 This is an Arduino project designed to sit on Team ROUSE's desk at the VEX World Championships 2016!
 It can display random messages when the Arduino is moved, or play the UK National Anthem (with lyrics), and also the Portal 2 end theme (Want You Gone), because why not...
